@@ -20,6 +20,7 @@ def menu():
     print "\033[97m8. Link Grabber\033[1;m"
     print "\033[97m9. IP Location Finder\033[1;m"
     print "\033[97m10. Traceroute\033[1;m"
+    print "\033[97m0. Exit\033[1;m"
 def dog():
     try:
         choice = input('\033[1;91mEnter your choice:\033[1;m ')
@@ -130,6 +131,8 @@ def dog():
             print (ptrace)
             menu()
             dog()
+        if choice == 0:
+            exit()
         else:
             print "\033[1;31m[-] Invalid option!\033[1;m"
             menu()
