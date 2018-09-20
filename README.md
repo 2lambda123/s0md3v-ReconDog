@@ -1,6 +1,9 @@
 # ReconDog
 Recon Dog is an all in one tool for all your basic information gathering needs. It uses APIs to gather all the information so your identity is not exposed.
-![ReconDog Screenshot](http://teamultimate.in/wp-content/uploads/2017/06/Screenshot-from-2017-06-12-23-14-54.png "Screenshot")
+
+
+## ReconDog Screenshot
+![ReconDog Screenshot](https://i.imgur.com/FbVTQ85.png "Screenshot")
 
 ## Downloading and running Recon Dog
 
