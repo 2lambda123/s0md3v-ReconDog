@@ -1,20 +1,22 @@
-# ReconDog
-Recon Dog is an all in one tool for all your basic information gathering needs. It uses APIs to gather all the information so your identity is not exposed.
-![ReconDog Screenshot](http://teamultimate.in/wp-content/uploads/2017/06/Screenshot-from-2017-06-12-23-14-54.png "Screenshot")
 
-## Downloading and running Recon Dog
+<h1 align="center">
+  <br>
+  <a href="https://github.com/s0md3v/ReconDog"><img src="https://image.ibb.co/mxO9rz/recondog.png" alt="Photon"></a>
+  <br>
+  ReconDog
+  <br>
+</h1>
 
-Enter the following command in the terminal to download it
-```
-git clone https://github.com/UltimateHackers/ReconDog
-```
-After downloading the program, enter the following command to navigate to the Recon Dog directory and listing the contents
-```
-cd ReconDog && ls
-```
-The directory contains `dog.py` which you can run with Python 2 and 3. 
- 
-Now run the script for your python version with the following command. 
-```
-python dog.py
-```
+<h4 align="center">Reconnaissance Swiss Army Knife</h4>
+
+<p align="center">
+  <a href="https://github.com/s0md3v/ReconDog/releases">
+    <img src="https://img.shields.io/github/release/s0md3v/ReconDog.svg">
+  </a>
+  <a href="https://travis-ci.com/s0md3v/ReconDog">
+    <img src="https://img.shields.io/travis/com/s0md3v/ReconDog.svg">
+  </a>
+  <a href="https://github.com/s0md3v/ReconDog/issues?q=is%3Aissue+is%3Aclosed">
+      <img src="https://img.shields.io/github/issues-closed-raw/s0md3v/ReconDog.svg">
+  </a>
+</p>
