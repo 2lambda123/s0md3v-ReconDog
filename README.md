@@ -23,7 +23,12 @@
 
 ![demo](https://image.ibb.co/jw5bye/Screenshot_2018_10_06_15_30_38.png)
 
-Recon Dog is designed to be a swiss army knife for recon. It uses online APIs to make sure no direct contact is ever made to the target.
+### Main Features
+- Wizard + CLA interface
+- Multithreaded
+- Can extracts targets from STDIN (piped input) and act upon them
+- All the information is extracted with APIs, no direct contact is made to the target
+
 
 ### Utilities
 - [Censys](https://censys.io/): Uses censys.io to gather massive amount of information about an IP address.
@@ -36,3 +41,9 @@ Recon Dog is designed to be a swiss army knife for recon. It uses online APIs to
 - [Reverse IP lookup](https://hackertarget.com/reverse-ip-lookup/): Does a reverse IP lookup to find domains associated with an IP address
 - [Detect technologies](https://www.wappalyzer.com): Uses wappalyzer.com to detect 1000+ technologies
 - [All](https://github.com/s0md3v/ReconDog): Runs all utilities against the target
+
+### Usage
+#### Wizard Interface
+![wizard interface](https://preview.ibb.co/d4M3de/Screenshot_2018_10_06_19_09_28.png)
+#### CLA Interface
+![CLA interface](https://image.ibb.co/jov6Yp/Screenshot_2018_10_07_14_06_21.png)
