@@ -21,8 +21,6 @@
   </a>
 </p>
 
-![demo](https://image.ibb.co/jw5bye/Screenshot_2018_10_06_15_30_38.png)
-
 ### Main Features
 - Wizard + CLA interface
 - Multithreaded
@@ -44,6 +42,6 @@
 
 ### Usage
 #### Wizard Interface
-![wizard interface](https://preview.ibb.co/d4M3de/Screenshot_2018_10_06_19_09_28.png)
+![wizard interface](https://image.ibb.co/nEiJDp/Screenshot_2018_10_07_14_21_40.png)
 #### CLA Interface
 ![CLA interface](https://image.ibb.co/jov6Yp/Screenshot_2018_10_07_14_06_21.png)
