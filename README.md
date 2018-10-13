@@ -41,3 +41,23 @@
 
 ### Demo
 <img alt="demo" href="https://youtu.be/CHkIMcSzzCY" src="https://image.ibb.co/i11A69/Screenshot-2018-10-13-15-41-11.png">
+
+### Usage
+#### Wizard Interface
+Wizard interface is the most straightforward way you can use Recon Dog in. Just run the program, select what you want to do and enter the target, it's that simple.
+#### CLA Interface
+Recon Dog also has a **C**ommand **L**ine **Argument** inteface.
+Here's how you can find subdomains:
+
+`python dog -t marvel.com -c 7`
+
+There's more to it! Do you have a program that can enumerate subdomains and you want to scan ports of all the subdomains it finds? Don't worry, Recon Dog is designed for handling with such cases. You can simply do this:
+
+`subdomainfinder -t example.com | python dog --domains -c 3`
+
+Also, it doesn't matter what kind of output the other program generates, Recon Dog uses regular expressions to find targets which makes it easy to integrate will literally every tool.
+There are two switchs available:
+```
+--domains    extract domains from STDIN
+--ips        extract ip addresses from STDIN
+```
