@@ -42,6 +42,16 @@
 ### Demo
 <img alt="demo" href="https://youtu.be/CHkIMcSzzCY" src="https://image.ibb.co/i11A69/Screenshot-2018-10-13-15-41-11.png">
 
+### Compatibility
+Recon Dog will run on anything that has a python interpreter installed. However, it has been tested on the following configurations:
+
+Operating Systems: Windows, Linux, Mac\
+Python Versions: Python2.7, Python 3.6
+
+### Installation
+Recon Dog requires no manual configuration and can be simply run as a normal python script.\
+However, a debian package can be downloaded from [here](https://github.com/s0md3v/s0md3v.github.io/blob/master/repo/Recon-Dog_2.0_all.deb?raw=true) if you want to install it.\
+
 ### Usage
 #### Wizard Interface
 Wizard interface is the most straightforward way you can use Recon Dog in. Just run the program, select what you want to do and enter the target, it's that simple.
@@ -62,7 +72,7 @@ There are two switchs available:
 --ips        extract ip addresses from STDIN
 ```
 
-##### Contribution & License
+### Contribution & License
 You can contribute in following ways:
 
 - Report bugs
