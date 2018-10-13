@@ -46,7 +46,7 @@
 #### Wizard Interface
 Wizard interface is the most straightforward way you can use Recon Dog in. Just run the program, select what you want to do and enter the target, it's that simple.
 #### CLA Interface
-Recon Dog also has a **C**ommand **L**ine **Argument** inteface.
+Recon Dog also has a **C**ommand **L**ine **A**rgument inteface.
 Here's how you can find subdomains:
 
 `python dog -t marvel.com -c 7`
@@ -61,3 +61,14 @@ There are two switchs available:
 --domains    extract domains from STDIN
 --ips        extract ip addresses from STDIN
 ```
+
+##### Contribution & License
+You can contribute in following ways:
+
+- Report bugs
+- Develop plugins
+- Give suggestions to make it better
+- Fix issues & submit a pull request
+
+Do you want to have a conversation in private? Hit me up on [my twitter](https://twitter.com/s0md3v), inbox is open :)
+Recon Dog is licensed under **Apache 2.0 License**.
