@@ -1,5 +1,6 @@
 import re
 
+
 def extractor(inpList, kind):
     parsed = set()
     inp = ''.join(inpList)

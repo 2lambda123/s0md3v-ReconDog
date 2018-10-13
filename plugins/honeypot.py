@@ -1,6 +1,7 @@
 import sys
 from requests import get
-from core.colors import bad, good, info, red, green, end
+from core.colors import bad, info, red, green, end
+
 
 def honeypot(inp):
     honey = 'https://api.shodan.io/labs/honeyscore/%s?key=C23OXE0bVMrul2YeqcL7zxb6jZ4pj2by' % inp
@@ -15,4 +16,5 @@ def honeypot(inp):
         else:
             color = red
         probability = str(float(result) * 10)
-        sys.stdout.write('%s Honeypot Probabilty: %s%s%%%s' % (info, color, probability, end) + '\n')
+        sys.stdout.write('%s Honeypot Probabilty: %s%s%%%s' %
+                         (info, color, probability, end) + '\n')

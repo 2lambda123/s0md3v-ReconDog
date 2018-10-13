@@ -5,11 +5,14 @@ from requests import get
 
 results = {}
 
+
 def findSubdomains(host):
-    response = get('https://findsubdomains.com/subdomains-of/' + get_fld(host, fix_protocol=True)).text
+    response = get('https://findsubdomains.com/subdomains-of/' +
+                   get_fld(host, fix_protocol=True)).text
     parts = response.split('data-row')
     for part in parts:
-        matches = findall(r'rel="nofollow" href="([^/]*)" target="_blank"|href="https://dnstable.com/ip/(.*)"', part)
+        matches = findall(
+            r'rel="nofollow" href="([^/]*)" target="_blank"|href="https://dnstable.com/ip/(.*)"', part)
         try:
             if matches[1][1] not in results:
                 results[matches[1][1]] = []

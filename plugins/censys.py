@@ -1,6 +1,7 @@
 import sys
 from requests import get
 
+
 def censys(ip):
     dirty_response = get('https://censys.io/ipv4/%s/raw' % ip).text
     clean_response = dirty_response.replace('&#34;', '"')

@@ -1,5 +1,6 @@
 import re
 import sys
+import requests
 
 from core.colors import bad, red, end
 
@@ -14,25 +15,27 @@ from plugins.censys import censys
 from plugins.reverseLookup import reverseLookup
 
 database = {
-'1' : [censys, 'ip'],
-'2' : [nsLookup, 'domain'],
-'3' : [portScan, 'domip'],
-'4' : [detectCMS, 'domain'],
-'5' : [whois, 'domip'],
-'6' : [honeypot, 'ip'],
-'7' : [findSubdomains, 'domain'],
-'8' : [reverseLookup, 'ip'],
-'9' : [detectTech, 'url']
+    '1': [censys, 'ip'],
+    '2': [nsLookup, 'domain'],
+    '3': [portScan, 'domip'],
+    '4': [detectCMS, 'domain'],
+    '5': [whois, 'domip'],
+    '6': [honeypot, 'ip'],
+    '7': [findSubdomains, 'domain'],
+    '8': [reverseLookup, 'ip'],
+    '9': [detectTech, 'url']
 }
 
 if sys.version_info < (3, 0):
     input = raw_input
+
 
 def getInput(typ):
     if typ == 'domip':
         typ = 'domain or ip'
     inp = input('%s%s>>%s  ' % (typ, red, end))
     return inp
+
 
 def validate(inp, typ):
     if typ == 'ip':
@@ -49,9 +52,10 @@ def validate(inp, typ):
                 requests.get('https://' + inp)
                 return 'https://' + inp
             except:
-                return 'http://'  + inp
+                return 'http://' + inp
     else:
         return inp
+
 
 def hq(choice, target=False):
     if target:
