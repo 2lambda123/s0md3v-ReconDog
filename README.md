@@ -50,13 +50,13 @@ Python Versions: Python2.7, Python 3.6
 
 ### Installation
 Recon Dog requires no manual configuration and can be simply run as a normal python script.\
-However, a debian package can be downloaded from [here](https://github.com/s0md3v/s0md3v.github.io/blob/master/repo/Recon-Dog_2.0_all.deb?raw=true) if you want to install it.
+However, a Debian package can be downloaded from [here](https://github.com/s0md3v/s0md3v.github.io/blob/master/repo/Recon-Dog_2.0_all.deb?raw=true) if you want to install it.
 
 ### Usage
 #### Wizard Interface
 Wizard interface is the most straightforward way you can use Recon Dog in. Just run the program, select what you want to do and enter the target, it's that simple.
 #### CLA Interface
-Recon Dog also has a **C**ommand **L**ine **A**rgument inteface.
+Recon Dog also has a **C**ommand **L**ine **A**rgument interface.
 Here's how you can find subdomains:
 
 `python dog -t marvel.com -c 7`
@@ -67,19 +67,19 @@ There's more to it! Do you have a program that can enumerate subdomains and you 
 
 If you just want to print the targets, don't use the **-c** option.\
 Also, it doesn't matter what kind of output the other program generates, Recon Dog uses regular expressions to find targets which makes it easy to integrate will literally every tool.
-There are two switchs available:
+There are two switches available:
 ```
 --domains    extract domains from STDIN
---ips        extract ip addresses from STDIN
+--ips        extract IP addresses from STDIN
 ```
 
 ### Contribution & License
-You can contribute in following ways:
+You can contribute in the following ways:
 
 - Report bugs
 - Develop plugins
 - Give suggestions to make it better
 - Fix issues & submit a pull request
 
-Do you want to have a conversation in private? Hit me up on [my twitter](https://twitter.com/s0md3v), inbox is open :) \
+Do you want to have a conversation in private? Hit me up on [my twitter](https://twitter.com/s0md3v), the inbox is open :) \
 Recon Dog is licensed under **Apache 2.0 License**.
