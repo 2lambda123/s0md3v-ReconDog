@@ -17,7 +17,10 @@
     <img src="https://img.shields.io/travis/com/s0md3v/ReconDog.svg">
   </a>
   <a href="https://github.com/s0md3v/ReconDog/issues?q=is%3Aissue+is%3Aclosed">
-      <img src="https://img.shields.io/github/issues-closed-raw/s0md3v/ReconDog.svg">
+    <img src="https://img.shields.io/github/issues-closed-raw/s0md3v/ReconDog.svg">
+  </a>
+  <a href="https://houndci.com">
+    <img alt="Reviewed by Hound" src="https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg">
   </a>
 </p>
 
