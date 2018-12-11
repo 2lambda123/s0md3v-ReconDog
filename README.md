@@ -19,6 +19,9 @@
   <a href="https://github.com/s0md3v/ReconDog/issues?q=is%3Aissue+is%3Aclosed">
       <img src="https://img.shields.io/github/issues-closed-raw/s0md3v/ReconDog.svg">
   </a>
+  <a href="http://inventory.rawsec.ml/tools.html#ReconDog">
+      <img src="https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg">
+  </a>
 </p>
 
 ### Main Features
