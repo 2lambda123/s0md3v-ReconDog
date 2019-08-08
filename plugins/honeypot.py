@@ -1,10 +1,11 @@
 import sys
+import os
 from requests import get
 from core.colors import bad, info, red, green, end
 
-
 def honeypot(inp):
-    honey = 'https://api.shodan.io/labs/honeyscore/%s?key=C23OXE0bVMrul2YeqcL7zxb6jZ4pj2by' % inp
+    key = os.environ.get('SHODAN_API_KEY', '')
+    honey = 'https://api.shodan.io/labs/honeyscore/%s?key=%s' % (inp, key)
     try:
         result = get(honey).text
     except:
